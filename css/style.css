@@ -488,6 +488,7 @@ footer {
     }
     .scrolldown{
         bottom:-15%;
+        right: 40%;
         /*矢印の動き1秒かけて永遠にループ*/
         animation: arrowmove 1s ease-in-out infinite;
     }
