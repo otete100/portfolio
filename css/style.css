@@ -486,6 +486,16 @@ footer {
     .theme_text {
         text-align: left;
     }
+    .scrolldown{
+        bottom:-15%;
+        /*矢印の動き1秒かけて永遠にループ*/
+        animation: arrowmove 1s ease-in-out infinite;
+    }
+    @keyframes arrowmove{
+        0%{bottom:-15%;}
+        50%{bottom:-18%;}
+       100%{bottom:-15%;}
+    }
     .work_grid {
         display: block;
     }
