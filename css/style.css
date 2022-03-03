@@ -73,11 +73,17 @@ h1 {
 .fv {
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url(../img/bg_l2.jpg) no-repeat, url(../img/bg_r2.jpg) no-repeat;
     background-position: left bottom, right bottom;
     margin: 0 7vw 200px;
+}
+.portfolio_title {
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 30px;
 }
 
 /* WORKS
